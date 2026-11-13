@@ -1,0 +1,51 @@
+name: analisis
+on:
+  workflow_dispatch: {}
+jobs:
+  analisis:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Tarik data historis 3 tahun (Indodax)
+        run: node scripts/fetch_history.js 3
+      - name: Ambil log mentah forward test
+        run: |
+          mkdir -p data_out
+          curl -sS --fail-with-body --max-time 120 \
+            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
+            "${{ secrets.TICK_URL }}/api/export" -o export.json
+          jq '.logs' export.json > data_out/logs.json
+          jq '.state' export.json > data_out/state.json
+      - name: Hitung asumsi dari snapshot dan order terukur
+        run: |
+          HALF=$(jq '[.[]|select(.type=="snapshot")|.spread]|sort|if length==0 then 0 else (.[(length/2|floor)]/2) end' data_out/logs.json)
+          SLIP=$(jq '[.[]|select(.type=="order")|(((.avgPrice-(if .side=="BUY" then .bestAsk else .bestBid end))|fabs)/(if .side=="BUY" then .bestAsk else .bestBid end))]|sort|if length==0 then 0 else .[(length/2|floor)] end' data_out/logs.json)
+          FROM=$(jq '[.[]|select(.type=="call")|.ts|sub("\\.[0-9]+Z$";"Z")|fromdateiso8601]|min' data_out/logs.json)
+          TO=$(jq '[.[]|select(.type=="call")|.ts|sub("\\.[0-9]+Z$";"Z")|fromdateiso8601]|max' data_out/logs.json)
+          FROM=$((FROM-14400))
+          echo "HALF=$HALF" >> $GITHUB_ENV
+          echo "SLIP=$SLIP" >> $GITHUB_ENV
+          echo "FROM=$FROM" >> $GITHUB_ENV
+          echo "TO=$TO" >> $GITHUB_ENV
+          echo "halfSpread=$HALF slip=$SLIP from=$FROM to=$TO"
+      - name: Backtest penuh dan jendela forward
+        run: |
+          node scripts/backtest.js --halfSpread=$HALF --slip=$SLIP --out=results/backtest_full.json
+          node scripts/backtest.js --halfSpread=$HALF --slip=$SLIP --from=$FROM --to=$TO --out=results/backtest_window.json
+      - name: Hitung ulang dan buat dashboard
+        run: node scripts/hitung_ulang.js
+      - name: Ringkasan
+        run: |
+          jq '{forward: .forward, signalMatch: (.signalMatch|{compared,matched,pct}), operations: .operations}' out/metrics.json
+      - name: Simpan hasil sebagai artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: hasil-analisis
+          path: |
+            out/
+            data_out/
+            results/
+            data/
