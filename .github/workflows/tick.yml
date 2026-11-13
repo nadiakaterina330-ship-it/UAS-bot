@@ -1,0 +1,14 @@
+name: tick
+on:
+  schedule:
+    - cron: '7 * * * *'   # menit ke-7 tiap jam (hindari menit 0 yang sering telat)
+  workflow_dispatch: {}
+jobs:
+  tick:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Panggil /api/tick
+        run: |
+          curl -sS --max-time 120 -w "\nHTTP %{http_code}\n" \
+            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
+            "${{ secrets.TICK_URL }}/api/tick"
