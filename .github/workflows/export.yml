@@ -1,0 +1,24 @@
+name: export-log
+on:
+  workflow_dispatch: {}
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ambil log mentah dan ringkas
+        run: |
+          curl -sS --fail-with-body --max-time 120 \
+            -H "Authorization: Bearer ${{ secrets.CRON_SECRET }}" \
+            "${{ secrets.TICK_URL }}/api/export" -o export.json
+          echo "Ukuran: $(wc -c < export.json) byte"
+          echo "--- jumlah entri per jenis ---"
+          jq -r '.logs | group_by(.type) | map("\(.[0].type): \(length)") | .[]' export.json
+          echo "--- error / data tidak valid (maks 20) ---"
+          jq -r '.logs[] | select(.type=="error" or .type=="invalid") | "\(.ts) \(.type) \(.pair // "-") \(.message // .reason)"' export.json | head -20
+          echo "--- snapshot order book terakhir ---"
+          jq -c '[.logs[] | select(.type=="snapshot")] | .[-2:][]' export.json
+      - name: Simpan log mentah sebagai artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: log-mentah
+          path: export.json
