@@ -1,0 +1,4 @@
+{
+  "functions": { "api/dashboard.js": { "includeFiles": "results/**" } },
+  "rewrites": [{ "source": "/", "destination": "/api/dashboard" }]
+}
