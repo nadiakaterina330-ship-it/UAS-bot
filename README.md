@@ -29,8 +29,7 @@ Bot trading simulasi (dry run, tanpa API key) yang membaca candle dan order book
 - Buy and hold BTC/IDR: beli di ask snapshot pertama, nilai di bid snapshot terakhir.
 
 ## Freeze
-Commit freeze = commit terakhir yang mengubah `lib/config.js`. Hash: **[ISI]**, waktu: **[ISI]**. Tidak ada force-push.
-
+Commit freeze = commit terakhir yang mengubah `lib/config.js`. Hash: **63beb3e**, tanggal 13 Nov 2026 (sore hari WIB, bersamaan dengan awal forward test; jam persis tertera di halaman commit GitHub). Tidak ada force-push dan tidak ada perubahan `lib/config.js` sesudahnya.
 ## Catatan jujur
 - **Forward test dimulai terlambat.** Jadwal soal dimulai 4 Nov 2026, tetapi bot baru berjalan sejak Jumat 13 Nov 2026 sekitar 14.46 WIB dan dievaluasi Sabtu 14 Nov 2026 12.00 WIB. Jadi forward test hanya sekitar 21 jam (bukan 10 hari), dan bukti freeze tanggal 4 Nov tidak ada.
 - **Penjadwal tidak teratur di awal.** GitHub Actions (tiap jam) sering telat; sejak 13 Nov 19.30 WIB dipakai cron-job.org tiap 15 menit. Panel operasional dashboard menampilkan panggilan terjadwal vs terlaksana apa adanya. Beberapa panggilan yang dibalas 200 OK oleh cron tidak tercatat di log; penyebabnya dibahas di refleksi.
