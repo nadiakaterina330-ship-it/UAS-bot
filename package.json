@@ -1,0 +1,13 @@
+{
+  "name": "uas-bot-dry-run-indodax",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "fetch-history": "node scripts/fetch_history.js 3",
+    "backtest": "node scripts/backtest.js",
+    "export-logs": "node scripts/export_logs.js",
+    "hitung-ulang": "node scripts/hitung_ulang.js"
+  }
+}
