@@ -1,0 +1,27 @@
+<!doctype html><html lang="id"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Dashboard Bot Dry Run Indodax</title><style>
+body{font-family:system-ui,sans-serif;margin:0;padding:16px;background:#fafafa;color:#111}h1{font-size:1.3rem}h2{font-size:1rem;margin-top:24px}
+table{border-collapse:collapse;width:100%;max-width:600px;background:#fff}th,td{border:1px solid #ddd;padding:6px 10px;text-align:left;font-size:.9rem}th{width:55%;background:#f0f0f0;font-weight:600}
+.note{font-size:.8rem;color:#555;max-width:600px}@media(prefers-color-scheme:dark){body{background:#111;color:#eee}table{background:#1a1a1a}th{background:#222}th,td{border-color:#333}.note{color:#aaa}}</style></head><body>
+<h1>Dashboard Bot Dry Run Indodax</h1>
+<p class="note">Semua angka dihitung ulang dari log mentah (data_out/logs.json). Periode forward test tercatat: 2026-11-13T07:46:29.214Z sampai 2026-11-14T04:15:12.644Z (20,5 jam). Forward test dimulai terlambat dari jadwal soal (4 Nov); lihat README.</p>
+<h2>Backtest penuh (3 tahun)</h2><table><tr><th>Return total</th><td>71.77%</td></tr><tr><th>CAGR</th><td>19.76%</td></tr><tr><th>Max drawdown</th><td>-18.92%</td></tr><tr><th>Profit factor</th><td>1,85</td></tr><tr><th>Win rate</th><td>47.06%</td></tr><tr><th>Rata-rata untung per trade</th><td>Rp 6.501.587</td></tr><tr><th>Rata-rata rugi per trade</th><td>Rp -3.120.918</td></tr><tr><th>Jumlah trade</th><td>51</td></tr></table>
+<h2>Backtest pada jendela forward</h2><table><tr><th>Return total</th><td>0.00%</td></tr><tr><th>CAGR</th><td>n/a (periode < 1 tahun)</td></tr><tr><th>Max drawdown</th><td>0.00%</td></tr><tr><th>Profit factor</th><td>n/a</td></tr><tr><th>Win rate</th><td>n/a</td></tr><tr><th>Rata-rata untung per trade</th><td>n/a</td></tr><tr><th>Rata-rata rugi per trade</th><td>n/a</td></tr><tr><th>Jumlah trade</th><td>0</td></tr></table>
+<h2>Forward test</h2><table>
+<tr><th>Return total</th><td>0.00%</td></tr><tr><th>Max drawdown</th><td>0.00%</td></tr><tr><th>Profit factor</th><td>n/a</td></tr><tr><th>Win rate</th><td>n/a</td></tr>
+<tr><th>Rata-rata untung per trade</th><td>n/a</td></tr><tr><th>Rata-rata rugi per trade</th><td>n/a</td></tr><tr><th>Jumlah trade (selesai)</th><td>0</td></tr><tr><th>Posisi masih terbuka</th><td>0</td></tr>
+<tr><th>Biaya: fee</th><td>Rp 0</td></tr><tr><th>Biaya: spread</th><td>Rp 0</td></tr><tr><th>Biaya: slippage</th><td>Rp 0</td></tr><tr><th>Porsi biaya terhadap laba kotor</th><td>n/a</td></tr>
+<tr><th>Benchmark buy and hold BTC/IDR (ask awal, bid akhir)</th><td>-2.86%</td></tr></table>
+<h2>Gap backtest vs forward (jendela yang sama)</h2><table>
+<tr><th>Sinyal dibandingkan (candle demi candle)</th><td>8</td></tr><tr><th>Sinyal identik</th><td>8 (100.00%)</td></tr>
+<tr><th>Selisih return (forward - backtest jendela)</th><td>0.00%</td></tr>
+<tr><th>Median half-spread semua snapshot</th><td>0.0247%</td></tr><tr><th>Half-spread asumsi backtest</th><td>0.0247%</td></tr>
+<tr><th>Median spread BTC/IDR</th><td>0.0231%</td></tr><tr><th>Median spread ETH/IDR</th><td>0.0839%</td></tr>
+<tr><th>Median selisih fill vs harga sinyal</th><td>n/a</td></tr></table>
+<h2>Panel operasional</h2><table>
+<tr><th>Panggilan terjadwal (acuan jadwal)</th><td>70</td></tr><tr><th>Panggilan terlaksana</th><td>30</td></tr>
+<tr><th>Candle diharapkan (pair x candle 4 jam)</th><td>12</td></tr><tr><th>Candle diproses tepat waktu</th><td>8</td></tr><tr><th>Uptime</th><td>66.67%</td></tr>
+<tr><th>Error API</th><td>0</td></tr><tr><th>Data tidak valid (dicatat)</th><td>0</td></tr><tr><th>Pemakaian kill switch (log)</th><td>0</td></tr><tr><th>Snapshot order book</th><td>60</td></tr></table>
+<h2>Equity harian (panggilan pertama setelah 00.00 WIB)</h2><table><tr><th>2026-11-13</th><td>Rp 100.000.000</td></tr><tr><th>2026-11-14</th><td>Rp 100.000.000</td></tr></table>
+<p class="note">Return forward dihitung dari equity tiap panggilan (posisi dinilai pada best bid). CAGR sengaja tidak ditampilkan untuk forward test. Jadwal acuan: GitHub Actions tiap jam, lalu cron-job.org tiap 15 menit sejak 13 Nov 19.30 WIB.</p>
+</body></html>

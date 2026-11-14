@@ -1,0 +1,1284 @@
+[
+  {
+    "ts": "2026-11-13T07:46:27.464Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1261005000,
+    "ask": 1261006000,
+    "spread": 7.930179527369231E-7
+  },
+  {
+    "ts": "2026-11-13T07:46:29.213Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35507000,
+    "ask": 35514000,
+    "spread": 0.0001971247940749919
+  },
+  {
+    "ts": "2026-11-13T07:46:29.213Z",
+    "type": "equity_daily",
+    "date": "2026-11-13",
+    "equity": 100000000
+  },
+  {
+    "ts": "2026-11-13T07:46:29.213Z",
+    "type": "bar",
+    "pair": "btcidr",
+    "barTime": 1794528000,
+    "processedAt": 1794555989213,
+    "close": 1268000000,
+    "entry": false,
+    "exit": true,
+    "hh": 1483420000,
+    "ll": 1301861000,
+    "sma": 1433982270,
+    "action": "HOLD"
+  },
+  {
+    "ts": "2026-11-13T07:46:29.214Z",
+    "type": "bar",
+    "pair": "ethidr",
+    "barTime": 1794528000,
+    "processedAt": 1794555989214,
+    "close": 35443000,
+    "entry": false,
+    "exit": true,
+    "hh": 44291000,
+    "ll": 36289000,
+    "sma": 41976880,
+    "action": "HOLD"
+  },
+  {
+    "ts": "2026-11-13T07:46:29.214Z",
+    "type": "call",
+    "serverSec": 1794555986,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T08:58:15.225Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1255354000,
+    "ask": 1255355000,
+    "spread": 7.965877367707688E-7
+  },
+  {
+    "ts": "2026-11-13T08:58:16.984Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35282000,
+    "ask": 35283000,
+    "spread": 0.00002834266279316942
+  },
+  {
+    "ts": "2026-11-13T08:58:16.985Z",
+    "type": "bar",
+    "pair": "btcidr",
+    "barTime": 1794542400,
+    "processedAt": 1794560296985,
+    "close": 1257512000,
+    "entry": false,
+    "exit": true,
+    "hh": 1483420000,
+    "ll": 1260000000,
+    "sma": 1432867905,
+    "action": "HOLD"
+  },
+  {
+    "ts": "2026-11-13T08:58:16.985Z",
+    "type": "bar",
+    "pair": "ethidr",
+    "barTime": 1794542400,
+    "processedAt": 1794560296985,
+    "close": 35480000,
+    "entry": false,
+    "exit": false,
+    "hh": 44291000,
+    "ll": 35105000,
+    "sma": 41930755,
+    "action": "HOLD"
+  },
+  {
+    "ts": "2026-11-13T08:58:16.985Z",
+    "type": "call",
+    "serverSec": 1794560293,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T11:55:46.837Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1269801000,
+    "ask": 1269802000,
+    "spread": 7.875246642880797E-7
+  },
+  {
+    "ts": "2026-11-13T11:55:48.701Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35856000,
+    "ask": 35864000,
+    "spread": 0.0002230897936419409
+  },
+  {
+    "ts": "2026-11-13T11:55:48.701Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794542400,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T11:55:48.701Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794542400,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T11:55:48.701Z",
+    "type": "call",
+    "serverSec": 1794570945,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T13:00:23.694Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1265001000,
+    "ask": 1265002000,
+    "spread": 7.905128966250238E-7
+  },
+  {
+    "ts": "2026-11-13T13:00:25.508Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35774000,
+    "ask": 35775000,
+    "spread": 0.000027952871458720598
+  },
+  {
+    "ts": "2026-11-13T13:00:25.508Z",
+    "type": "bar",
+    "pair": "btcidr",
+    "barTime": 1794556800,
+    "processedAt": 1794574825508,
+    "close": 1269008000,
+    "entry": false,
+    "exit": false,
+    "hh": 1483420000,
+    "ll": 1241001000,
+    "sma": 1431836745,
+    "action": "HOLD"
+  },
+  {
+    "ts": "2026-11-13T13:00:25.508Z",
+    "type": "bar",
+    "pair": "ethidr",
+    "barTime": 1794556800,
+    "processedAt": 1794574825508,
+    "close": 35858000,
+    "entry": false,
+    "exit": false,
+    "hh": 44291000,
+    "ll": 34883000,
+    "sma": 41887590,
+    "action": "HOLD"
+  },
+  {
+    "ts": "2026-11-13T13:00:25.508Z",
+    "type": "call",
+    "serverSec": 1794574822,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T13:05:57.732Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1264168000,
+    "ask": 1265352000,
+    "spread": 0.0009361459881716689
+  },
+  {
+    "ts": "2026-11-13T13:05:59.512Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35782000,
+    "ask": 35841000,
+    "spread": 0.001647515462909959
+  },
+  {
+    "ts": "2026-11-13T13:05:59.512Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794556800,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T13:05:59.512Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794556800,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T13:05:59.512Z",
+    "type": "call",
+    "serverSec": 1794575156,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T15:00:24.645Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1258797000,
+    "ask": 1259157000,
+    "spread": 0.00028594644699625173
+  },
+  {
+    "ts": "2026-11-13T15:00:26.458Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35550000,
+    "ask": 35590000,
+    "spread": 0.001124543154343548
+  },
+  {
+    "ts": "2026-11-13T15:00:26.458Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794556800,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T15:00:26.458Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794556800,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T15:00:26.458Z",
+    "type": "call",
+    "serverSec": 1794582022,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T15:15:11.288Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1254835000,
+    "ask": 1254836000,
+    "spread": 7.969172054823122E-7
+  },
+  {
+    "ts": "2026-11-13T15:15:13.167Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35322000,
+    "ask": 35343000,
+    "spread": 0.0005943536404160475
+  },
+  {
+    "ts": "2026-11-13T15:15:13.167Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794556800,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T15:15:13.167Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794556800,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T15:15:13.167Z",
+    "type": "call",
+    "serverSec": 1794582909,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T15:50:59.831Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1255612000,
+    "ask": 1256075000,
+    "spread": 0.0003686765110461614
+  },
+  {
+    "ts": "2026-11-13T15:51:01.683Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35347000,
+    "ask": 35398000,
+    "spread": 0.0014417980069262846
+  },
+  {
+    "ts": "2026-11-13T15:51:01.683Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794556800,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T15:51:01.683Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794556800,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T15:51:01.683Z",
+    "type": "call",
+    "serverSec": 1794585058,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T16:00:22.522Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1254667000,
+    "ask": 1256332000,
+    "spread": 0.001326165402694306
+  },
+  {
+    "ts": "2026-11-13T16:00:24.321Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35238000,
+    "ask": 35287000,
+    "spread": 0.0013895781637717122
+  },
+  {
+    "ts": "2026-11-13T16:00:24.321Z",
+    "type": "bar",
+    "pair": "btcidr",
+    "barTime": 1794571200,
+    "processedAt": 1794585624321,
+    "close": 1255340000,
+    "entry": false,
+    "exit": false,
+    "hh": 1483420000,
+    "ll": 1241001000,
+    "sma": 1430733430,
+    "action": "HOLD"
+  },
+  {
+    "ts": "2026-11-13T16:00:24.321Z",
+    "type": "bar",
+    "pair": "ethidr",
+    "barTime": 1794571200,
+    "processedAt": 1794585624321,
+    "close": 35279000,
+    "entry": false,
+    "exit": false,
+    "hh": 44291000,
+    "ll": 34883000,
+    "sma": 41841750,
+    "action": "HOLD"
+  },
+  {
+    "ts": "2026-11-13T16:00:24.321Z",
+    "type": "call",
+    "serverSec": 1794585621,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T16:55:52.516Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1253779000,
+    "ask": 1253999000,
+    "spread": 0.00017545412711970516
+  },
+  {
+    "ts": "2026-11-13T16:55:54.342Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35187000,
+    "ask": 35215000,
+    "spread": 0.000795431947956024
+  },
+  {
+    "ts": "2026-11-13T16:55:54.342Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794571200,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T16:55:54.342Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794571200,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T16:55:54.342Z",
+    "type": "call",
+    "serverSec": 1794588950,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T17:00:25.450Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1253800000,
+    "ask": 1253879000,
+    "spread": 0.00006300646932880963
+  },
+  {
+    "ts": "2026-11-13T17:00:27.262Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35146000,
+    "ask": 35177000,
+    "spread": 0.0008816461186240633
+  },
+  {
+    "ts": "2026-11-13T17:00:27.262Z",
+    "type": "equity_daily",
+    "date": "2026-11-14",
+    "equity": 100000000
+  },
+  {
+    "ts": "2026-11-13T17:00:27.262Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794571200,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T17:00:27.262Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794571200,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T17:00:27.262Z",
+    "type": "call",
+    "serverSec": 1794589224,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T17:45:11.396Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1256797000,
+    "ask": 1260859000,
+    "spread": 0.003226810970204031
+  },
+  {
+    "ts": "2026-11-13T17:45:13.205Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35480000,
+    "ask": 35500000,
+    "spread": 0.0005635390250774866
+  },
+  {
+    "ts": "2026-11-13T17:45:13.205Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794571200,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T17:45:13.205Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794571200,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T17:45:13.205Z",
+    "type": "call",
+    "serverSec": 1794591909,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T18:45:10.719Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1256801000,
+    "ask": 1256978000,
+    "spread": 0.00014082383534908997
+  },
+  {
+    "ts": "2026-11-13T18:45:12.513Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35434000,
+    "ask": 35440000,
+    "spread": 0.00016931455823009848
+  },
+  {
+    "ts": "2026-11-13T18:45:12.513Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794571200,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T18:45:12.513Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794571200,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T18:45:12.514Z",
+    "type": "call",
+    "serverSec": 1794595509,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T18:52:50.154Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1256979000,
+    "ask": 1257833000,
+    "spread": 0.0006791760179289744
+  },
+  {
+    "ts": "2026-11-13T18:52:52.007Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35429000,
+    "ask": 35437000,
+    "spread": 0.00022577822933423643
+  },
+  {
+    "ts": "2026-11-13T18:52:52.007Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794571200,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T18:52:52.007Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794571200,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T18:52:52.007Z",
+    "type": "call",
+    "serverSec": 1794595968,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T19:00:22.692Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1258276000,
+    "ask": 1259079000,
+    "spread": 0.0006379712039025088
+  },
+  {
+    "ts": "2026-11-13T19:00:24.497Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35446000,
+    "ask": 35492000,
+    "spread": 0.0012969071583636416
+  },
+  {
+    "ts": "2026-11-13T19:00:24.497Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794571200,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T19:00:24.497Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794571200,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T19:00:24.497Z",
+    "type": "call",
+    "serverSec": 1794596421,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T20:00:21.520Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1260636000,
+    "ask": 1261122000,
+    "spread": 0.00038544539166724166
+  },
+  {
+    "ts": "2026-11-13T20:00:23.323Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35610000,
+    "ask": 35680000,
+    "spread": 0.0019638097909945294
+  },
+  {
+    "ts": "2026-11-13T20:00:23.324Z",
+    "type": "bar",
+    "pair": "btcidr",
+    "barTime": 1794585600,
+    "processedAt": 1794600023324,
+    "close": 1260636000,
+    "entry": false,
+    "exit": false,
+    "hh": 1483420000,
+    "ll": 1241001000,
+    "sma": 1429654605,
+    "action": "HOLD"
+  },
+  {
+    "ts": "2026-11-13T20:00:23.324Z",
+    "type": "bar",
+    "pair": "ethidr",
+    "barTime": 1794585600,
+    "processedAt": 1794600023324,
+    "close": 35629000,
+    "entry": false,
+    "exit": false,
+    "hh": 44291000,
+    "ll": 34860000,
+    "sma": 41796740,
+    "action": "HOLD"
+  },
+  {
+    "ts": "2026-11-13T20:00:23.324Z",
+    "type": "call",
+    "serverSec": 1794600020,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T20:15:10.493Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1258819000,
+    "ask": 1261183000,
+    "spread": 0.0018761889871515974
+  },
+  {
+    "ts": "2026-11-13T20:15:12.254Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35688000,
+    "ask": 35689000,
+    "spread": 0.000028020230606497893
+  },
+  {
+    "ts": "2026-11-13T20:15:12.254Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794585600,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T20:15:12.254Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794585600,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T20:15:12.254Z",
+    "type": "call",
+    "serverSec": 1794600909,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T20:45:10.257Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1258819000,
+    "ask": 1258821000,
+    "spread": 0.0000015887895012789755
+  },
+  {
+    "ts": "2026-11-13T20:45:12.075Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35533000,
+    "ask": 35581000,
+    "spread": 0.001349945158477937
+  },
+  {
+    "ts": "2026-11-13T20:45:12.075Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794585600,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T20:45:12.075Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794585600,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T20:45:12.075Z",
+    "type": "call",
+    "serverSec": 1794602709,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T21:15:11.529Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1254001000,
+    "ask": 1254002000,
+    "spread": 7.974472119849937E-7
+  },
+  {
+    "ts": "2026-11-13T21:15:13.354Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35357000,
+    "ask": 35403000,
+    "spread": 0.0013001695873374789
+  },
+  {
+    "ts": "2026-11-13T21:15:13.355Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794585600,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T21:15:13.355Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794585600,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T21:15:13.355Z",
+    "type": "call",
+    "serverSec": 1794604509,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T21:30:16.546Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1249055000,
+    "ask": 1250443000,
+    "spread": 0.0011106230131010307
+  },
+  {
+    "ts": "2026-11-13T21:30:18.394Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35269000,
+    "ask": 35327000,
+    "spread": 0.001643152586548813
+  },
+  {
+    "ts": "2026-11-13T21:30:18.394Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794585600,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T21:30:18.394Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794585600,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T21:30:18.394Z",
+    "type": "call",
+    "serverSec": 1794605414,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T21:45:10.315Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1245441000,
+    "ask": 1245448000,
+    "spread": 0.000005620483289299523
+  },
+  {
+    "ts": "2026-11-13T21:45:12.104Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35084000,
+    "ask": 35121000,
+    "spread": 0.0010540559789188803
+  },
+  {
+    "ts": "2026-11-13T21:45:12.104Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794585600,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T21:45:12.104Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794585600,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T21:45:12.104Z",
+    "type": "call",
+    "serverSec": 1794606309,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T21:49:24.282Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1246306000,
+    "ask": 1247556000,
+    "spread": 0.0010024612428434292
+  },
+  {
+    "ts": "2026-11-13T21:49:26.072Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35154000,
+    "ask": 35205000,
+    "spread": 0.0014497079264912803
+  },
+  {
+    "ts": "2026-11-13T21:49:26.073Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794585600,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T21:49:26.073Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794585600,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T21:49:26.073Z",
+    "type": "call",
+    "serverSec": 1794606563,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T22:45:10.238Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1250000000,
+    "ask": 1250506000,
+    "spread": 0.0004047180850595839
+  },
+  {
+    "ts": "2026-11-13T22:45:12.047Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35253000,
+    "ask": 35302000,
+    "spread": 0.001388987314860747
+  },
+  {
+    "ts": "2026-11-13T22:45:12.048Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794585600,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T22:45:12.048Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794585600,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T22:45:12.048Z",
+    "type": "call",
+    "serverSec": 1794609909,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T23:00:23.250Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1248243000,
+    "ask": 1248244000,
+    "spread": 8.011257418925073E-7
+  },
+  {
+    "ts": "2026-11-13T23:00:25.024Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35177000,
+    "ask": 35178000,
+    "spread": 0.00002842726174401251
+  },
+  {
+    "ts": "2026-11-13T23:00:25.025Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794585600,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T23:00:25.025Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794585600,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T23:00:25.025Z",
+    "type": "call",
+    "serverSec": 1794610822,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T23:42:13.917Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1245572000,
+    "ask": 1246916000,
+    "spread": 0.0010784404980084157
+  },
+  {
+    "ts": "2026-11-13T23:42:15.696Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35147000,
+    "ask": 35185000,
+    "spread": 0.0010805892054825683
+  },
+  {
+    "ts": "2026-11-13T23:42:15.696Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794585600,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T23:42:15.696Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794585600,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T23:42:15.696Z",
+    "type": "call",
+    "serverSec": 1794613332,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-13T23:45:09.931Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1245572000,
+    "ask": 1246576000,
+    "spread": 0.0008057306387903126
+  },
+  {
+    "ts": "2026-11-13T23:45:11.732Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35147000,
+    "ask": 35186000,
+    "spread": 0.0011090099953080346
+  },
+  {
+    "ts": "2026-11-13T23:45:11.732Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794585600,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T23:45:11.732Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794585600,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-13T23:45:11.732Z",
+    "type": "call",
+    "serverSec": 1794613508,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-14T00:30:15.572Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1248012000,
+    "ask": 1249121000,
+    "spread": 0.0008882186091009169
+  },
+  {
+    "ts": "2026-11-14T00:30:17.360Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35350000,
+    "ask": 35354000,
+    "spread": 0.00011314777098891151
+  },
+  {
+    "ts": "2026-11-14T00:30:17.360Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794600000,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-14T00:30:17.360Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794600000,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-14T00:30:17.360Z",
+    "type": "call",
+    "serverSec": 1794616214,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-14T00:58:37.010Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1248639000,
+    "ask": 1248662000,
+    "spread": 0.000018419886109043323
+  },
+  {
+    "ts": "2026-11-14T00:58:38.766Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 35301000,
+    "ask": 35316000,
+    "spread": 0.0004248268830451591
+  },
+  {
+    "ts": "2026-11-14T00:58:38.766Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794600000,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-14T00:58:38.766Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794600000,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-14T00:58:38.766Z",
+    "type": "call",
+    "serverSec": 1794617915,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-14T03:30:14.598Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1232999000,
+    "ask": 1233000000,
+    "spread": 8.110303369952705E-7
+  },
+  {
+    "ts": "2026-11-14T03:30:16.383Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 34915000,
+    "ask": 34922000,
+    "spread": 0.00020046680126580466
+  },
+  {
+    "ts": "2026-11-14T03:30:16.383Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794600000,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-14T03:30:16.383Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794600000,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-14T03:30:16.383Z",
+    "type": "call",
+    "serverSec": 1794627013,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  },
+  {
+    "ts": "2026-11-14T04:15:10.868Z",
+    "type": "snapshot",
+    "pair": "btcidr",
+    "bid": 1224944000,
+    "ask": 1225000000,
+    "spread": 0.000045715330636128826
+  },
+  {
+    "ts": "2026-11-14T04:15:12.644Z",
+    "type": "snapshot",
+    "pair": "ethidr",
+    "bid": 34598000,
+    "ask": 34621000,
+    "spread": 0.0006645574192057094
+  },
+  {
+    "ts": "2026-11-14T04:15:12.644Z",
+    "type": "skip",
+    "pair": "btcidr",
+    "barTime": 1794614400,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-14T04:15:12.644Z",
+    "type": "skip",
+    "pair": "ethidr",
+    "barTime": 1794614400,
+    "reason": "candle sudah diproses (idempotent)"
+  },
+  {
+    "ts": "2026-11-14T04:15:12.644Z",
+    "type": "call",
+    "serverSec": 1794629709,
+    "equity": 100000000,
+    "cash": 100000000,
+    "positions": {},
+    "killed": false,
+    "startedAt": "2026-11-13T07:46:25.597Z"
+  }
+]

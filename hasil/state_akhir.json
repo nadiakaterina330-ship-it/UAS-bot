@@ -1,0 +1,13 @@
+{
+  "cash": 100000000,
+  "positions": {},
+  "processed": {
+    "btcidr": 1794614400,
+    "ethidr": 1794614400
+  },
+  "dayStart": {
+    "date": "2026-11-14",
+    "equity": 100000000
+  },
+  "startedAt": "2026-11-13T07:46:25.597Z"
+}

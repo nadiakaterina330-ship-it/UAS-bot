@@ -1,0 +1,90 @@
+{
+  "generatedFrom": "data_out/logs.json",
+  "forward": {
+    "start": "2026-11-13T07:46:29.214Z",
+    "end": "2026-11-14T04:15:12.644Z",
+    "hours": 20.478730555555554,
+    "totalReturn": 0,
+    "maxDrawdown": 0,
+    "trades": 0,
+    "openTrades": 0,
+    "winRate": null,
+    "profitFactor": null,
+    "avgWin": null,
+    "avgLoss": null,
+    "costs": {
+      "fees": 0,
+      "spreadCost": 0,
+      "slipCost": 0,
+      "share": null
+    },
+    "buyAndHoldBTC": -0.02859780207231366
+  },
+  "backtestFull": {
+    "windowFrom": 1699963200,
+    "windowTo": 1794628800,
+    "totalReturn": 0.7177331341491091,
+    "cagr": 0.19763511466522354,
+    "maxDrawdown": -0.1891788706318105,
+    "trades": 51,
+    "winRate": 0.47058823529411764,
+    "profitFactor": 1.8517593550985987,
+    "avgWin": 6501587.164208484,
+    "avgLoss": -3120917.7231886177,
+    "assumptions": {
+      "halfSpread": 0.0002470914770306614,
+      "slip": 0,
+      "feeTaker": 0.005
+    }
+  },
+  "backtestWindow": {
+    "windowFrom": 1794542400,
+    "windowTo": 1794628800,
+    "totalReturn": 0,
+    "cagr": null,
+    "maxDrawdown": 0,
+    "trades": 0,
+    "winRate": null,
+    "profitFactor": null,
+    "avgWin": null,
+    "avgLoss": null,
+    "assumptions": {
+      "halfSpread": 0.0002470914770306614,
+      "slip": 0,
+      "feeTaker": 0.005
+    }
+  },
+  "signalMatch": {
+    "compared": 8,
+    "matched": 8,
+    "pct": 1,
+    "mismatches": []
+  },
+  "operations": {
+    "calls": 30,
+    "scheduledCalls": 70,
+    "barsExpected": 12,
+    "barsOnTime": 8,
+    "uptime": 0.6666666666666666,
+    "errors": 0,
+    "invalid": 0,
+    "killSwitchLogs": 0,
+    "snapshots": 60,
+    "medianSpread": 0.0004941829540613228,
+    "medianHalfSpread": 0.0002470914770306614,
+    "medianSpreadBTC": 0.00023070028705797843,
+    "medianSpreadETH": 0.0008385390332900436,
+    "backtestHalfSpreadAssumed": 0.0002470914770306614,
+    "orderVsSignalMedian": null
+  },
+  "equityDaily": [
+    {
+      "date": "2026-11-13",
+      "equity": 100000000
+    },
+    {
+      "date": "2026-11-14",
+      "equity": 100000000
+    }
+  ]
+}
